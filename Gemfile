@@ -11,3 +11,5 @@ gem "capybara", "~> 3.18"
 gem "rspec", "~> 3.8"
 
 gem "sinatra", "~> 2.0"
+
+gem "rubocop", "~> 0.67.2"
