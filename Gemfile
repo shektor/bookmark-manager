@@ -13,3 +13,5 @@ gem "rspec", "~> 3.8"
 gem "sinatra", "~> 2.0"
 
 gem "rubocop", "~> 0.67.2"
+
+gem "pg", "~> 1.1"

@@ -1,10 +1,9 @@
-require 'bookmarks'
+require 'bookmark'
 
-RSpec.describe Bookmarks do
-  let(:bookmark) { described_class.new }
-  describe '#list' do
+RSpec.describe Bookmark do
+  describe '#all' do
     it 'returns an array of bookmark' do
-      expect(bookmark.list).to eq(['www.google.com','www.youtube.com','www.instagram.com'])
+      expect(described_class.all).to eq(['www.google.com','www.youtube.com','www.instagram.com'])
     end
   end
 end
