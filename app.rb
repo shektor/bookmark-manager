@@ -12,5 +12,5 @@ class BookmarkManager < Sinatra::Base
     erb :bookmarks
   end
 
-  run! if __FILE__ == $0
+  run! if app_file == $0
 end
