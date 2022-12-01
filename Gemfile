@@ -10,7 +10,7 @@ gem "capybara", "~> 3.18", group: :test
 
 gem "rspec", "~> 3.8", group: :test
 
-gem "sinatra", "~> 2.0"
+gem "sinatra", "~> 2.2"
 
 gem "rubocop", "~> 0.67.2", group: :test
 
